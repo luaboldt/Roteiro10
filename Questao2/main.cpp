@@ -38,6 +38,7 @@ int main(){
 
 	try {
 			 cconvencional.sacar(saque);
+			 std::cout << "Saque realizado com sucesso!" << '\n';
 	}
 
 	catch (runtime_error &r){
@@ -75,6 +76,7 @@ int main(){
 	cin >> saque;
 	try {
 			 cespecial.sacar(saque);
+			 std::cout << "Saque realizado com sucesso" << '\n';
 	}
 
 	catch (runtime_error &r){
@@ -88,7 +90,7 @@ int main(){
 
 	cout << endl << "Definindo limite com base no seu salario mensal";
 	cespecial.definirLimite();
-	cout << endl << "Limite definido com sucesso";
+	cout << endl << "Limite definido com sucesso" << endl << endl;
 
 	return 0;
 
